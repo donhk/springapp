@@ -1,0 +1,4 @@
+*.mv.db
+.gradle/
+build/
+.idea/
