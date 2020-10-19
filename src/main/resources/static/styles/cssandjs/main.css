@@ -1,0 +1,46 @@
+.button {
+    padding: 15px 25px;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #F44336;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0 19px #999;
+}
+
+.button:hover {background-color: #E53935}
+
+.button:active {
+    background-color: #E040FB;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.parent{
+    position: relative;
+    background-color: #312D2A;
+}
+
+.buttonHome{
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FCFBFA;
+    margin: 20% 0 0 -150px;
+}
+
+.footer{
+    font-size: 11px;
+    font-family: arial;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FCFBFA;
+}
