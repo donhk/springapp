@@ -7,6 +7,9 @@ It has a Web UI in which you can press a button and it will
 reproduce a sound, this is to show how to load css/js/images
 and mp3 files from the static resources folder.
 
+##### REST GET with param
+With `/?name=value` you can modify a text in the Web UI
+
 ##### REST GET 
 From `/stats` it will return a json array
 with data of the people who has pressed the button
