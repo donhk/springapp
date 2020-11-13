@@ -6,3 +6,4 @@ build/
 *.log
 *.swap
 *.class
+!gradle/wrapper/gradle-wrapper.jar
